@@ -1,6 +1,6 @@
 # プライバシーポリシー（Surf Life Log）
 
-最終更新日: 2025-11-13
+最終更新日: 2026-06-15
 
 本プライバシーポリシーは、アプリ「Surf Life Log」（以下「本アプリ」）における個人情報・各種データの取扱いについて定めるものです。本アプリを利用することで、本ポリシーに同意いただいたものとみなします。
 
@@ -55,12 +55,3 @@
 - Android 権限: `android.permission.ACCESS_FINE_LOCATION`
 - 広告SDK: Google Mobile Ads（AdMob）
 - アプリ内の設定により、広告表示は有効／無効を切り替え可能です。
-
----
-
-### 実装参照（開発者向け）
-- 位置情報権限: `android/app/src/main/AndroidManifest.xml:2-6`
-- AdMob アプリID注入: `android/app/src/main/AndroidManifest.xml:39-41`（`manifestPlaceholders` 経由）
-- プレースホルダー設定: `android/app/build.gradle.kts:32-37`
-- バナー広告ユニットID: `lib/features/shared/common/4_presentation/1_widgets/1_atoms/android_banner_ad_bar.dart:32`
-- Ads SDK 初期化: `lib/main.dart:23-28`
